@@ -8,3 +8,6 @@ sdwan_serial_file: "{{ playbook_dir }}/licenses/serialFile.viptela"
 sdwan_cert_dir: "{{ lookup('env', 'PWD') }}/myCA"
 # Encrypt/Vault this in real life
 sdwan_CA_passphrase: Cisc0123
+terraform_project_path: 'terraform-sdwan/vmware'
+terraform_plan_file: sdwan.tfplan
+terraform_vedge_var_file: vedges.tfvars
